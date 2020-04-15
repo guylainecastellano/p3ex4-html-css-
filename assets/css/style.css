@@ -1,0 +1,46 @@
+header{
+  background-image: url(../image/header.jpg);
+  background-size: cover;
+  height: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  }
+h1{
+  font-family: 'Playfair display', serif;
+  font-size: 20em;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /*enléve les puces */
+  list-style-type: none; /* définit la hauteur de la liste mm hauteur que nav */
+  height: 50px;
+}
+li > a{
+  color: #000000;
+  font-size: 3em; /* enleve le trait de soulignmt */
+  text-decoration: none;
+}
+li > a:hover{
+  color: #ffffff; /*change de couleur qd on passe dessus */
+}
+nav{
+  background-color: #84b9bd;
+  height: 50px;
+  margin: -20px;
+}
+
+div{
+  font-size: 3em;
+  text-align: center;
+  background-color:  #84b9bd
+}
+article{
+  background-image: url('../image/plage.jpg');
+display: block;
+display: flex;
+}
+mark{
+  font-size: 10em;
+}
