@@ -52,3 +52,10 @@ img{
 .container p{
   text-align: justify;
 }
+/*media queries */
+@media query and (max-width: 992px){ /* version tablette */
+  /*mettre alignement des 3 blocs en vertical*/
+}
+@media query and (max-width: 480px){ /* version portable (téléphone) */
+  /* disparaitre les éléments de la navbar et faire apparaitre le menu burger */
+}
