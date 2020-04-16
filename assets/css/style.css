@@ -30,35 +30,25 @@ nav{
   height: 50px;
   margin: -20px;
 }
-
+/* titre et texte de présentation */
 #présentation{
   font-size: 3em;
   text-align: center;
   background-color:  #84b9bd;
   margin: 0 20em 0 20em
 }
-
+/* blocs */
 #container{
   display: flex;
-  justify-content:space-around;
-  align-items: center;
-  align-content: center;
+  padding: 1.2em;
 }
-.images_petit{
-  width: 1500px;
-  height: 1500px;
+img{
+  width: 100%;
 }
-#article1 gauche {
-  font-family: fantasy;
+.article{
   text-align: center;
+  margin: 1.7em;
 }
-#article2 milieu {
-  text-align: center;
-  font-family: fantasy;
-  text-align: center;
-}
-#article3 droite {
-  text-align: center;
-  font-family: fantasy;
-  text-align: center;
+.container p{
+  text-align: justify;
 }
