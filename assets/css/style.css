@@ -31,51 +31,28 @@ nav{
   margin: -20px;
 }
 
-div{
+#présentation{
   font-size: 3em;
   text-align: center;
   background-color:  #84b9bd;
   margin: 0 20em 0 20em
 }
+
+#container{
+  display: flex;
+}
 #article1 gauche {
-  background-image: url('../image/plage.jpg');
-  background-size: 30%;
-  height: 300px;
-  width: 100%;
-  float: left; /* float - position:relative - position:absolute - box-shadow - border-radius*/
-}
-#article1 h1{
   text-align: center;
-}
-.article p{
   font-family: fantasy;
   text-align: center;
 }
 #article2 milieu {
-  background-image: url('../image/appartement.jpg');
-  background-size: 30%;
-  height: 300px;
-  width: 100%;
-  float: left;
-}
-#article1 h1{
   text-align: center;
-}
-.article p{
   font-family: fantasy;
   text-align: center;
 }
 #article3 droite {
-  background-image: url('../image/manhattan.jpg');
-  background-size: 30%;
-  height: 300px;
-  width: 100%;
-  float: left;
-}
-#article1 h1{
   text-align: center;
-}
-.article p{
   font-family: fantasy;
   text-align: center;
 }
