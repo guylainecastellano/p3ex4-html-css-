@@ -40,9 +40,15 @@ nav{
 
 #container{
   display: flex;
+  justify-content:space-around;
+  align-items: center;
+  align-content: center;
+}
+.images_petit{
+  width: 1500px;
+  height: 1500px;
 }
 #article1 gauche {
-  text-align: center;
   font-family: fantasy;
   text-align: center;
 }
